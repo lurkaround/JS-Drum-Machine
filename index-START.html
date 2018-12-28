@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">Drum</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">Hi Short</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">House Loop</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">PWL Bass</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">Snare</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">Roland</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">80s Bass</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">Bender</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">Robot</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/Drum.wav"></audio>
+  <audio data-key="83" src="sounds/HiShort.wav"></audio>
+  <audio data-key="68" src="sounds/houseLoop.wav"></audio>
+  <audio data-key="70" src="sounds/PwlBass.wav"></audio>
+  <audio data-key="71" src="sounds/ReverbedSnare.wav"></audio>
+  <audio data-key="72" src="sounds/Roland.wav"></audio>
+  <audio data-key="74" src="sounds/80sBass.wav"></audio>
+  <audio data-key="75" src="sounds/bender.wav"></audio>
+  <audio data-key="76" src="sounds/Robot.wav"></audio>
+
+<script src=script.js>
+</script>
+
+
+</body>
+</html>
